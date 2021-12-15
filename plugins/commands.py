@@ -11,19 +11,19 @@ async def start(c, m):
     owner_username = owner.username if owner.username else 'Ns_bot_updates'
 
     # start text
-    text = f"""Hey! {m.from_user.mention(style='md')},
+    text = f"""Olá! {m.from_user.mention(style='md')},
 
-💡 ** I am Stylish Font Bot**
+💡 ** Eu sou ─» ⃕⃟᎒⃟ི̀𝑆͢𝑡͢·࣭𝑦͢𝑙͢·࣭࣪𝑖͢𝑠·࣪͢ℎ⃕⃟᎒⃟𝐹𝑜·࣭࣪𝑛𝑡'𝑠 ⃕⃟᎒⃟ི̀𝑇࣭𝑟𝑎ฺ̇𝑠ℎ ⃕⃟᎒⃟ི̀**
 
-`I can help you to get stylish fonts. Just send me some text and see magic.`
+`Eu posso ajudá-lo a obter fontes elegantes. Apenas me envie uma mensagem e veja magia.`
 
-**👲 Maintained By:** {owner.mention(style='md')}
+**👲 Criado pelo:** 『♚•⃔𝑻̶⃯̭͓𝒉̶⃯̭͓𝒆̶⃯̭͓ ┼ ⃬𝑷⃯̭͓𝒂⃯̭͓᳒𝒏⃯̭͓𝒅⃯̭͓᳒𝒂⃯̭͓⃕•♚』〖⭎ˢ͢ᵗ͢ᵃ͢ᶠ͢ᶠ ⃪〗
 """
 
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('My Father 👨‍✈️', url=f"https://t.me/{owner_username}")
+            InlineKeyboardButton('♦️ Meu criador ♦️', url=f"https://t.me/The_Panda_Ofc")
         ]
     ]
     await m.reply_text(
